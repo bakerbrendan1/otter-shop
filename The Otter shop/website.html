@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head><!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Define the sidebar styles */
+        .sidenav {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: -250px; /* Initially, hide the sidebar to the left */
+            background-color: #333;
+            padding-top: 20px;
+            transition: 0.5s;
+        }
+
+        .sidenav a {
+            padding: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f2f2f2;
+        }
+
+        /* Button to open the sidebar */
+        .openbtn {
+            font-size: 30px;
+            cursor: pointer;
+            position: fixed;
+            z-index: 1;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Button to open the sidebar -->
+<div class="openbtn" onclick="openNav()">&#9776; Open</div>
+
+<!-- The sidebar -->
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; Close</a>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.left = "0";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.left = "-250px";
+    }
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store</title>
+<style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Otter Shop&nbsp;&nbsp;</h1>
+    </header>
+    <div class="container">
+        <!-- Product 1 -->
+        <div class="product">
+            <h2>Product 1</h2>
+            <p>Description of Product 1.</p>
+            <p>Price: $19.99</p>
+            <button>Add to Cart</button>
+      </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+            <h2>Product 2</h2>
+            <p>Description of Product 2.</p>
+            <p>Price: $29.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Add more products as needed -->
+</div>
+</body>
+</html>
+</body>
+</html>
+
+
+
+
+
+<body>
+</body>
+</html>
